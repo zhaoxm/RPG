@@ -1,0 +1,122 @@
+# This .gitignore file is for Unity projects.
+# For more templates, visit https://github.com/github/gitignore
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Asset meta files
+# Uncomment if using Unity 2019.4 or later and Asset Database v2
+# [Aa]ssets/**/*.meta
+
+# Auto-generated Jetbrains Rider plugin directory
+[Aa]ssets/Plugins/Editor/JetBrains* 
+
+# User-specific files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Build results
+*.apk
+*.aab
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Ignore asset store tools
+[Aa]ssets/AssetStoreTools*
+
+# Ignore custom builds
+Build/
+
+# Ignore Rider Unity plugin
+[Rr]ider*
+
+# Ignore log files
+*.log
+
+# Ignore npm files
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore the .idea folder for JetBrains IDEs
+.idea/
+
+# Ignore .vscode folder for Visual Studio Code
+.vscode/
+
+# Ignore gradle files
+*.gradle
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.deb
+*.exe
+*.o
+*.ko
+*.obj
+*.pyc
+*.pyo
+*.bin
+*.lock
+*.log
+*.out
+*.class
+*.app
+.gradle/
+local.properties
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/assetWizardSettings.xml
+/.idea/dictionaries
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/vcs.xml
+/.idea/.name
+.gradle/
+/build/
+/local.properties
+/.gradle/
+/gradlew
+/gradlew.bat
+.gradle/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore project-specific settings
+UnitySettings.asset
