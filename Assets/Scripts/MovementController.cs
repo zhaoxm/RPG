@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    public float movementSpeed = 3.0f;
+    public float movementSpeed;
     private Vector2 _movement;
     private Animator _animator;
     private Rigidbody2D _rb2D;
-    private static readonly int State = Animator.StringToHash(AnimationState);
-    private const string AnimationState = "AnimationState";
+    private static readonly int State = Animator.StringToHash("AnimationState");
 
     private enum CharStates
     {
